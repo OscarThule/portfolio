@@ -342,8 +342,8 @@ export default function Home() {
               
               <p className="text-xl sm:text-2xl text-slate-300 mb-12 leading-relaxed max-w-4xl mx-auto drop-shadow-lg font-medium">
                 With over 7 years of hands-on experience in software development through personal projects, 
-                I've built and refined skills in designing, architecting, and deploying modern applications. 
-                Now, I'm bringing this expertise to companies, helping turn their vision into scalable, 
+                I have built and refined skills in designing, architecting, and deploying modern applications. 
+                Now, I am bringing this expertise to companies, helping turn their vision into scalable, 
                 reliable solutions.
               </p>
               

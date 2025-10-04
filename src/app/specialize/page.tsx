@@ -190,8 +190,8 @@ export default function Specialize() {
                 </span>
               </h1>
               <p className="text-slate-300 text-xl max-w-3xl mx-auto mb-6">
-                With 7 years of self-directed learning and a Bachelor's degree in Information Technology (Business Systems), 
-                I've cultivated expertise across multiple domains.
+                With 7 years of self-directed learning and a Bachelor degree in Information Technology (Business Systems), 
+                I have cultivated expertise across multiple domains.
               </p>
               <div className="inline-block bg-gradient-to-r from-emerald-500/20 to-green-500/30 text-emerald-400 px-6 py-3 rounded-full border border-emerald-400/40">
                 🎓 BSc Information Technology (Business Systems)

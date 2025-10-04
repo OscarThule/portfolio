@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Navigation from '../components/Navigation';
 
 export default function Contact() {
@@ -20,7 +21,6 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
     console.log('Form submitted:', formData);
     alert('Thank you for your message! I will get back to you soon.');
     setFormData({ name: '', email: '', subject: '', message: '' });
@@ -111,23 +111,25 @@ export default function Contact() {
                 </span>
               </h1>
               <p className="text-slate-300 text-xl max-w-2xl mx-auto">
-                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
               </p>
               
               {/* Avatar */}
-<div className="flex justify-center mt-8">
-    <div className="relative">
-        <div className="w-48 h-48 rounded-full border-4 border-cyan-400 overflow-hidden glow-card">
-            {/* Replaced gradient div with img tag */}
-            <img 
-                src="images/formalpic.jpg" 
-                alt="User avatar" 
-                className="w-full h-full object-cover"
-            />
-        </div>
-        <div className="absolute inset-0 rounded-full border-2 border-emerald-400 pulse-ring -m-2"></div>
-    </div>
-</div>
+              <div className="flex justify-center mt-8">
+                <div className="relative">
+                  <div className="w-48 h-48 rounded-full border-4 border-cyan-400 overflow-hidden glow-card">
+                    <Image 
+                      src="/images/formalpic.jpg" 
+                      alt="User avatar" 
+                      width={192}
+                      height={192}
+                      className="w-full h-full object-cover rounded-full"
+                      priority
+                    />
+                  </div>
+                  <div className="absolute inset-0 rounded-full border-2 border-emerald-400 pulse-ring -m-2"></div>
+                </div>
+              </div>
             </section>
 
             {/* Contact Methods */}
