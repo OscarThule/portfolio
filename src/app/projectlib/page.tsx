@@ -177,7 +177,7 @@ export default function ProjectLib() {
               {/* Video & Gallery Section */}
               <div className="app-link mb-8">
                 <p className="text-amber-400 font-semibold text-center mb-6">
-                  🎯 Press 3 dots on video bottom, click "Picture in picture" to have mobile experience
+                  🎯 Press 3 dots on video bottom, click PICTURE IN PICTURE to have mobile experience
                 </p>
 
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-8 mb-8">
@@ -493,8 +493,8 @@ export default function ProjectLib() {
             </button>
             <div className="bg-gradient-to-br from-amber-500/20 to-orange-500/30 rounded-2xl p-8 max-w-2xl border border-amber-400/40">
               <p className="text-slate-100 text-lg leading-relaxed text-center">
-                🔒 Many people don't like to receive or install APK files/links due to security concerns and
-                policies. That's why I provided a video showcasing the application running live to respect your
+                🔒 Many people do not like to receive or install APK files/links due to security concerns and
+                policies. That is why I provided a video showcasing the application running live to respect your
                 security preferences. I can bring the application or run the APK to test it live during
                 interviews. If you want it now call me or email me I will send it.
               </p>
