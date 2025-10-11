@@ -119,7 +119,7 @@ export default function Navigation() {
                   onClick={() => setIsImageModalOpen(true)}
                 >
                   <img 
-                    src="images/formalpic.jpg" 
+                    src="images/RBPLK6_119.jpg" 
                     alt="Thule-Oscar Profile" 
                     className="w-full h-full object-cover"
                   />
@@ -170,7 +170,7 @@ export default function Navigation() {
                     onClick={() => setIsImageModalOpen(true)}
                   >
                     <img 
-                      src="images/formalpic.jpg" 
+                      src="images/RBPLK6_119.jpg" 
                       alt="Thule-Oscar Profile" 
                       className="w-full h-full object-cover"
                     />
@@ -228,7 +228,7 @@ export default function Navigation() {
               <i className="ph ph-x"></i>
             </button>
             <img 
-              src="images/formalpic.jpg" 
+              src="images/RBPLK6_119.jpg" 
               alt="Thule-Oscar Profile" 
               className="w-full h-auto max-h-[80vh] object-contain rounded-2xl shadow-2xl"
             />

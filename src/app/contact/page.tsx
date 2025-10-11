@@ -119,7 +119,7 @@ export default function Contact() {
                 <div className="relative">
                   <div className="w-48 h-48 rounded-full border-4 border-cyan-400 overflow-hidden glow-card">
                     <Image 
-                      src="/images/formalpic.jpg" 
+                      src="/images/RBPLK6_119.jpg" 
                       alt="User avatar" 
                       width={192}
                       height={192}
@@ -251,6 +251,24 @@ export default function Contact() {
                       description: 'Projects REPO',
                       url: 'https://github.com/OscarThule/portfolio2.git',
                       tech: 'Next.js'
+                    },
+                    {
+                      name: 'Surgery Frontend 1',
+                      description: 'Manchidi REPO',
+                      url: 'https://github.com/OscarThule/manchidi',
+                      tech: 'Next.js'
+                    },
+                    {
+                      name: 'Surgery Server',
+                      description: 'Server for Surgery App',
+                      url: 'https://github.com/OscarThule/surgery-server',
+                      tech: 'Node.js'
+                    },
+                    {
+                      name: 'SOEN Projects',
+                      description: 'Various SOEN Projects REPO',
+                      url: 'https://github.com/OscarThule/soen-projects',
+                      tech: 'Various'
                     }
                   ].map((repo, index) => (
                     <a
@@ -276,88 +294,7 @@ export default function Contact() {
               </div>
             </section>
 
-            {/* Contact Form */}
-            <section className="contact-section">
-              <div className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 rounded-3xl p-8 sm:p-12 backdrop-blur-lg border border-slate-600/30 max-w-4xl mx-auto">
-                <h2 className="text-3xl sm:text-4xl font-bold text-slate-100 mb-8 text-center">
-                  💬 Send Me a Message
-                </h2>
-                
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label htmlFor="name" className="block text-slate-300 mb-2 font-medium">
-                        Your Name
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                        className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600/50 rounded-xl text-slate-100 placeholder-slate-400 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all"
-                        placeholder="Enter your name"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="email" className="block text-slate-300 mb-2 font-medium">
-                        Your Email
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                        className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600/50 rounded-xl text-slate-100 placeholder-slate-400 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all"
-                        placeholder="Enter your email"
-                      />
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="subject" className="block text-slate-300 mb-2 font-medium">
-                      Subject
-                    </label>
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600/50 rounded-xl text-slate-100 placeholder-slate-400 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all"
-                      placeholder="What's this about?"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="message" className="block text-slate-300 mb-2 font-medium">
-                      Your Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                      rows={6}
-                      className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600/50 rounded-xl text-slate-100 placeholder-slate-400 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all resize-vertical"
-                      placeholder="Tell me about your project or idea..."
-                    />
-                  </div>
-                  
-                  <button
-                    type="submit"
-                    className="w-full bg-gradient-to-r from-cyan-500 to-emerald-500 hover:from-cyan-600 hover:to-emerald-600 text-slate-900 font-bold py-4 px-8 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl text-lg"
-                  >
-                    🚀 Send Message
-                  </button>
-                </form>
-              </div>
-            </section>
+           
           </div>
         </main>
 
