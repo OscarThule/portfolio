@@ -180,7 +180,7 @@ export default function ProjectLib() {
               </div>
 
               <p className="text-slate-300 text-lg leading-relaxed text-center max-w-4xl mx-auto mb-12">
-                This is a complex, full-stack web application I built for the owner of a surgery clinic. It features two separate frontends: one for patients and one for doctors/administrators. The system allows patients to book appointments seamlessly, with real-time updates pushed to the doctor's appointment schedule. Everyone can test it with real data—it's fully operational and working well. For more projects, explore my public repositories on GitHub to learn more about my work.
+                This is a complex, full-stack web application I built for the owner of a surgery clinic. It features two separate frontends: one for patients and one for doctors/administrators. The system allows patients to book appointments seamlessly, with real-time updates pushed to the doctor appointment schedule. Everyone can test it with real data—it fully operational and working well. For more projects, explore my public repositories on GitHub to learn more about my work.
               </p>
 
               {/* Image & Link Section */}
@@ -216,7 +216,7 @@ export default function ProjectLib() {
                   </div>
 
                   <p className="text-slate-300 text-lg leading-relaxed text-center mb-6">
-                    The application communicates effectively between the patient and doctor sites. When a patient books an appointment, it instantly appears in the doctor's schedule thanks to real-time updates.
+                    The application communicates effectively between the patient and doctor sites. When a patient books an appointment, it instantly appears in the doctor schedule thanks to real-time updates.
                   </p>
                 </div>
               </div>
@@ -266,7 +266,7 @@ export default function ProjectLib() {
               <div className="bg-slate-800/40 rounded-2xl p-8 border border-slate-600/50 mb-12">
                 <h3 className="text-2xl font-bold text-cyan-400 mb-4 text-center">📡 Real-Time Communication</h3>
                 <p className="text-slate-300 text-lg leading-relaxed text-center">
-                  The application uses WebSockets via Socket.io for real-time, bidirectional communication between clients and the server. This enables instant updates: when a patient books or modifies an appointment, the changes are pushed immediately to the doctor's dashboard without needing page refreshes. The Node.js Express backend handles the WebSocket connections efficiently, ensuring low-latency interactions and a smooth user experience across both frontends.
+                  The application uses WebSockets via Socket.io for real-time, bidirectional communication between clients and the server. This enables instant updates: when a patient books or modifies an appointment, the changes are pushed immediately to the doctor dashboard without needing page refreshes. The Node.js Express backend handles the WebSocket connections efficiently, ensuring low-latency interactions and a smooth user experience across both frontends.
                 </p>
               </div>
 
@@ -335,7 +335,7 @@ export default function ProjectLib() {
                   🚀 Deployment & Testing
                 </h3>
                 <p className="text-slate-300 text-lg leading-relaxed text-center max-w-4xl mx-auto mb-8">
-                  Deployed on Vercel for the patient frontend, with the backend running in Kubernetes-managed Docker containers. The system is live with real data, fully functional, and ready for testing. Feel free to create bookings and see how they propagate to the doctor's schedule in real-time. Video consultations are powered by Agora for seamless visual interactions between patients and doctors.
+                  Deployed on Vercel for the patient frontend, with the backend running in Kubernetes-managed Docker containers. The system is live with real data, fully functional, and ready for testing. Feel free to create bookings and see how they propagate to the doctor schedule in real-time. Video consultations are powered by Agora for seamless visual interactions between patients and doctors.
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                   {[
